@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543160873561.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3769925373",
+    "id" : "CE6BDF0D",
+    "lastKnownWriteTime" : 1543164373,
+    "last_content_update" : 1543164373327,
+    "path" : "~/Desktop/DBDA/ML/Machine Learning/kmeans1.R",
+    "project_path" : "kmeans1.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

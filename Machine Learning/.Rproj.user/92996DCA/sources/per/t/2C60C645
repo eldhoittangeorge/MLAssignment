@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543241404989.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2660727720",
+    "id" : "2C60C645",
+    "lastKnownWriteTime" : 1543417121,
+    "last_content_update" : 1543417121540,
+    "path" : "~/Desktop/DBDA/ML/Machine Learning/assi1.R",
+    "project_path" : "assi1.R",
+    "properties" : {
+        "cursorPosition" : "34,0",
+        "scrollLine" : "14",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

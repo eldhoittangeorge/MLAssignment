@@ -1,0 +1,45 @@
+library(ggplot2)
+library(cluster)
+
+data <- read.csv("census.csv")
+dim(data)
+
+newData <- data.frame(data$Town.Village_Code,data$No.of.Households,data$Total.Population.Person,data$Scheduled.Castes.population.Person
+                      ,data$Scheduled.Tribes.population.Person,data$Literates.Population.Person,
+                      data$Main.Household.Industries.Population.Person,data$Non.Working.Population.Person)
+
+newData <- newData[data$Town.Village_Code > 0,]
+str(newData[c(2:8)])
+print(nrow(newData))
+
+w <- rep(1,14)
+
+size <- dim(newData)
+print(size[2])
+finalData <- newData[c(2:size[2])]
+str(finalData)
+
+set.seed(12)
+
+for (i in 1:15){
+  w[i] <- sum(kmeans(finalData,centers=i)$withinss)
+}
+print(w)
+
+plot(1:15,w,type = "b")
+
+
+model = kmeans(finalData,centers=4)
+model$size
+clusplot(finalData,model$cluster)
+model$cluster
+
+
+
+
+
+
+
+
+
+
